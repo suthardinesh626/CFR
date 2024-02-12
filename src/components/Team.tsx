@@ -1,13 +1,44 @@
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
-  CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
 import { Facebook, Instagram, Linkedin } from "lucide-react";
+import Dhruv from '../assets/Team/CoreTeam/1.png'
+import johnathan from '../assets/Team/CoreTeam/2.png'
+import jason from '../assets/Team/CoreTeam/3.png'
+import mahthew from '../assets/Team/Chassis/Chassis/1.png'
+import adrian from '../assets/Team/Chassis/Chassis/2.png'
+import mayank from '../assets/Team/Chassis/Chassis/3.png'
+import krsish from '../assets/Team/Chassis/Chassis/4.png'
+import rudra from '../assets/Team/Chassis/Chassis/5.png'
+
+import shahood from '../assets/Team/Electronics/Electronics/2.png'
+import malcom from '../assets/Team/Electronics/Electronics/3.png'
+import smruti from '../assets/Team/Electronics/Electronics/4.png'
+import jacob from '../assets/Team/Electronics/Electronics/5.png'
+
+
+import mahender from '../assets/Team/E-powertrain/1.png'
+import yash from '../assets/Team/E-powertrain/2.png'
+import shantanu from '../assets/Team/E-powertrain/5.png'
+import anushka from '../assets/Team/E-powertrain/6.png'
+import vedika from '../assets/Team/E-powertrain/7.png'
+import vinay from '../assets/Team/E-powertrain/8.png'
+import yashraj from '../assets/Team/E-powertrain/9.png'
+
+import amish from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/1.png'
+import kunal from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/2.png'
+import fahad from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/3.png'
+import ishan from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/4.png'
+import musavir from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/5.png'
+import harishankar from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/6.png'
+import chinmay from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/7.png'
+import pranav from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/8.png'
+
 
 interface TeamProps {
   imageUrl: string;
@@ -21,17 +52,93 @@ interface SociaNetworkslProps {
   url: string;
 }
 
-const teamList: TeamProps[] = [
+const teamList1: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    imageUrl: Dhruv,
+    name: "Dhruv Pednekar",
+    position: "Caption",
     socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
+      { name: "Linkedin", url: "" },
       {
         name: "Facebook",
-        url: "https://www.facebook.com/",
+        url: "",
       },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/dhruvpednekar?igsh=MXE3bTNna3FrOGl1Yg==",
+      },
+    ],
+  },
+  {
+    imageUrl: johnathan,
+    name: "Jonhathan Joseph",
+    position: "Manager",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
+      },
+    ],
+  },
+  {
+    imageUrl: jason,
+    name: "Jason Rodrigues",
+    position: "Chief Financial Officer",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/jasonrod_7?igsh=MWs2OHdoZmtoa3ljeg==",
+      },
+    ],
+  }
+];
+const teamList2: TeamProps[] = [
+  {
+    imageUrl: mahthew,
+    name: "Mathew Payapilly",
+    position: "Chassis Head",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/mat_0602?igsh=em01MTYxc3Y3Nmlm",
+      },
+    ],
+  },
+  {
+    imageUrl: adrian,
+    name: "Adrian Nair",
+    position: "Chassis Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
+      },
+    ],
+  },
+  {
+    imageUrl: mayank,
+    name: "Mayank Katkar",
+    position: "Chassis Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
       {
         name: "Instagram",
         url: "https://www.instagram.com/",
@@ -39,24 +146,8 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
-    position: "Tech Lead",
-    socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
+    imageUrl: krsish,
+    name: "Krish Karelia",
     position: "Frontend Developer",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
@@ -68,18 +159,344 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
+    imageUrl: rudra,
+    name: "Rudra Mhatre",
+    position: "Chassis Junior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  }
+];
+const teamList3: TeamProps[] = [
+  {
+    imageUrl: Dhruv,
+    name: "Dhruv Pednekar",
+    position: "Electrnoic Head",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
       {
         name: "Facebook",
-        url: "https://www.facebook.com/",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
       },
     ],
   },
+  {
+    imageUrl: shahood,
+    name: "Shahood Ansari",
+    position: "Chassis Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
+      },
+    ],
+  },
+  {
+    imageUrl: malcom,
+    name: "Malcom Pereira",
+    position: "Chassis Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: smruti,
+    name: "Smruti Bhatkar",
+    position: "Frontend Developer",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: jacob,
+    name: "Jacob Perumatil",
+    position: "Chassis Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  }
 ];
+const teamList4: TeamProps[] = [
+  {
+    imageUrl: mahender,
+    name: "Mahender Choudhary",
+    position: "E-Powertrain Head",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
+      },
+    ],
+  },
+  {
+    imageUrl: yash,
+    name: "Yash More",
+    position: "Chassis Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
+      },
+    ],
+  },
+  {
+    imageUrl: johnathan,
+    name: "Jonathan Joseph",
+    position: "E-Powertrain Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: jason,
+    name: "Jason Rodrigues",
+    position: "E-Powertrain Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: shantanu,
+    name: "Shantanu Karekar",
+    position: "E-Powertrain Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: anushka,
+    name: "Anoushka Dixit",
+    position: "E-Powertrain Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: vedika,
+    name: "Vedika Vartak",
+    position: "E-Powertrain Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: vinay,
+    name: "Vinay Pujari",
+    position: "E-Powertrain Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: yashraj,
+    name: "Yashraj Pandit",
+    position: "E-Powertrain Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  }
+];
+
+const teamList5: TeamProps[] = [
+  {
+    imageUrl: amish,
+    name: "Amish Nair",
+    position: "Vehical Dynamic Head",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
+      },
+    ],
+  },
+  {
+    imageUrl: kunal,
+    name: "Kunal Kore",
+    position: "Vehical Dynamic Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "" },
+      {
+        name: "Facebook",
+        url: "",
+      },
+      {
+        name: "Instagram",
+        url: "",
+      },
+    ],
+  },
+  {
+    imageUrl: fahad,
+    name: "Fahad Qureshi",
+    position: "Vehical Dynamic Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: ishan,
+    name: "Ishan Chatterjee",
+    position: "Vehical Dynamic Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: musavir,
+    name: "Musavir",
+    position: "Vehical Dynamic Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: harishankar,
+    name: "Harishankar Rajam",
+    position: "Vehical Dynamic Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: chinmay,
+    name: "Chinmay Khadye",
+    position: "E-Powertrain Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: pranav,
+    name: "Pranav Dhole",
+    position: "Vehical Dynamic Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
+    imageUrl: yashraj,
+    name: "Yashraj Pandit",
+    position: "E-Powertrain Junior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  }
+];
+
 
 export const Team = () => {
   const socialIcon = (iconName: string) => {
@@ -96,66 +513,277 @@ export const Team = () => {
   };
 
   return (
-    <section
-      id="team"
-      className="container py-24 sm:py-32"
-    >
-      <h2 className="text-3xl md:text-4xl font-bold">
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Our Dedicated{" "}
-        </span>
-        Crew
-      </h2>
+    <>
+      <section
+        id="team"
+        className="container py-24 sm:py-32"
+      >
+        <h2 className="text-3xl md:text-4xl font-bold">
+          <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+            Our Dedicated{" "}
+          </span>
+          Crew
+        </h2>
 
-      <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
-      </p>
+        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+          Core Team
+        </p>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
-        {teamList.map(
-          ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
-            <Card
-              key={name}
-              className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
-            >
-              <CardHeader className="mt-8 flex justify-center items-center pb-2">
-                <img
-                  src={imageUrl}
-                  alt={`${name} ${position}`}
-                  className="absolute -top-12 rounded-full w-24 h-24 aspect-square object-cover"
-                />
-                <CardTitle className="text-center">{name}</CardTitle>
-                <CardDescription className="text-primary">
-                  {position}
-                </CardDescription>
-              </CardHeader>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10 ">
+          {teamList1.map(
+            ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+              <Card
+                key={name}
+                className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
+              >
+                <CardHeader className="mt-8 flex justify-center items-center pb-2">
+                  <img
+                    src={imageUrl}
+                    alt={`${name} ${position}`}
+                    className="absolute -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+                  />
+                  <CardTitle className="text-center">{name}</CardTitle>
+                  <CardDescription className="text-primary">
+                    {position}
+                  </CardDescription>
+                </CardHeader>
 
-              <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-              </CardContent>
+                <CardFooter>
+                  {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (
+                    <div key={name}>
+                      <a
+                        href={url}
+                        target="_blank"
+                        className={buttonVariants({
+                          variant: "ghost",
+                          size: "sm",
+                        })}
+                      >
+                        <span className="sr-only">{name} icon</span>
+                        {socialIcon(name)}
+                      </a>
+                    </div>
+                  ))}
+                </CardFooter>
+              </Card>
+            )
+          )}
+        </div>
 
-              <CardFooter>
-                {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (
-                  <div key={name}>
-                    <a
-                      href={url}
-                      target="_blank"
-                      className={buttonVariants({
-                        variant: "ghost",
-                        size: "sm",
-                      })}
-                    >
-                      <span className="sr-only">{name} icon</span>
-                      {socialIcon(name)}
-                    </a>
-                  </div>
-                ))}
-              </CardFooter>
-            </Card>
-          )
-        )}
-      </div>
-    </section>
+
+      </section>
+
+      <section
+        id="team"
+        className="container py-10 sm:py-32"
+      >
+        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+          Chassis Team
+        </p>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10 ">
+          {teamList2.map(
+            ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+              <Card
+                key={name}
+                className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
+              >
+                <CardHeader className="mt-8 flex justify-center items-center pb-2">
+                  <img
+                    src={imageUrl}
+                    alt={`${name} ${position}`}
+                    className="absolute -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+                  />
+                  <CardTitle className="text-center">{name}</CardTitle>
+                  <CardDescription className="text-primary">
+                    {position}
+                  </CardDescription>
+                </CardHeader>
+
+
+                <CardFooter>
+                  {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (
+                    <div key={name}>
+                      <a
+                        href={url}
+                        target="_blank"
+                        className={buttonVariants({
+                          variant: "ghost",
+                          size: "sm",
+                        })}
+                      >
+                        <span className="sr-only">{name} icon</span>
+                        {socialIcon(name)}
+                      </a>
+                    </div>
+                  ))}
+                </CardFooter>
+              </Card>
+            )
+          )}
+        </div>
+
+
+      </section>
+
+      <section
+        id="team"
+        className="container py-10 sm:py-32"
+      >
+        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+          Electronic Team
+        </p>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10 ">
+          {teamList3.map(
+            ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+              <Card
+                key={name}
+                className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
+              >
+                <CardHeader className="mt-8 flex justify-center items-center pb-2">
+                  <img
+                    src={imageUrl}
+                    alt={`${name} ${position}`}
+                    className="absolute -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+                  />
+                  <CardTitle className="text-center">{name}</CardTitle>
+                  <CardDescription className="text-primary">
+                    {position}
+                  </CardDescription>
+                </CardHeader>
+
+
+                <CardFooter>
+                  {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (
+                    <div key={name}>
+                      <a
+                        href={url}
+                        target="_blank"
+                        className={buttonVariants({
+                          variant: "ghost",
+                          size: "sm",
+                        })}
+                      >
+                        <span className="sr-only">{name} icon</span>
+                        {socialIcon(name)}
+                      </a>
+                    </div>
+                  ))}
+                </CardFooter>
+              </Card>
+            )
+          )}
+        </div>
+
+
+      </section>      
+
+      <section
+        id="team"
+        className="container py-10 sm:py-32"
+      >
+        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+          E-Powertrain
+        </p>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10 ">
+          {teamList4.map(
+            ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+              <Card
+                key={name}
+                className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
+              >
+                <CardHeader className="mt-8 flex justify-center items-center pb-2">
+                  <img
+                    src={imageUrl}
+                    alt={`${name} ${position}`}
+                    className="absolute -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+                  />
+                  <CardTitle className="text-center">{name}</CardTitle>
+                  <CardDescription className="text-primary">
+                    {position}
+                  </CardDescription>
+                </CardHeader>
+
+
+                <CardFooter>
+                  {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (
+                    <div key={name}>
+                      <a
+                        href={url}
+                        target="_blank"
+                        className={buttonVariants({
+                          variant: "ghost",
+                          size: "sm",
+                        })}
+                      >
+                        <span className="sr-only">{name} icon</span>
+                        {socialIcon(name)}
+                      </a>
+                    </div>
+                  ))}
+                </CardFooter>
+              </Card>
+            )
+          )}
+        </div>
+
+
+      </section>
+
+      <section
+        id="team"
+        className="container py-10 sm:py-32"
+      >
+        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+          Vehical Dynamics Team
+        </p>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10 ">
+          {teamList5.map(
+            ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+              <Card
+                key={name}
+                className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
+              >
+                <CardHeader className="mt-8 flex justify-center items-center pb-2">
+                  <img
+                    src={imageUrl}
+                    alt={`${name} ${position}`}
+                    className="absolute -top-12 rounded-full w-24 h-24 aspect-square object-cover"
+                  />
+                  <CardTitle className="text-center">{name}</CardTitle>
+                  <CardDescription className="text-primary">
+                    {position}
+                  </CardDescription>
+                </CardHeader>
+
+
+                <CardFooter>
+                  {socialNetworks.map(({ name, url }: SociaNetworkslProps) => (
+                    <div key={name}>
+                      <a
+                        href={url}
+                        target="_blank"
+                        className={buttonVariants({
+                          variant: "ghost",
+                          size: "sm",
+                        })}
+                      >
+                        <span className="sr-only">{name} icon</span>
+                        {socialIcon(name)}
+                      </a>
+                    </div>
+                  ))}
+                </CardFooter>
+              </Card>
+            )
+          )}
+        </div>
+
+
+      </section>
+    </>
   );
 };

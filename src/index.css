@@ -2,10 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --saturation: 100%;
+  --lightness: 50%;
+}
 /* HeroCards background shadow */
 .shadow {
   position: absolute;
-  background: hsl(var(--primary) / 0%);
+  background: hsl(120, var(--saturation), var(--lightness));
   border-radius: 24px;
   rotate: 35deg;
 
@@ -18,12 +22,12 @@ html {
 
 @keyframes shadow-slide {
   from {
-    background: hsl(var(--primary) / 20%);
-    right: 460px;
+    background: hsl(0, var(--saturation), calc(var(--lightness) *  20%)); /* Updated to red hue */
+    right:  460px;
   }
   to {
-    background: hsl(var(--primary) / 80%);
-    right: 160px;
+    background: hsl(0, var(--saturation), calc(var(--lightness) *  80%)); /* Updated to red hue */
+    right:  160px;
   }
 }
 

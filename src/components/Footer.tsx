@@ -1,4 +1,12 @@
 import { LogoIcon } from "./Icons";
+import phone from '../assets/png/icons8-phone-48.png'
+
+import instagram from '../assets/social/icons8-instagram-96.png'
+import youtube from '../assets/social/icons8-youtube-96.png'
+import linkdin from '../assets/social/icons8-linkedin-96.png'
+import twitter from '../assets/social/icons8-twitter-96.png'
+import email from '../assets/social/icons8-gmail-96.png'
+
 
 export const Footer = () => {
   return (
@@ -11,142 +19,121 @@ export const Footer = () => {
             href="/"
             className="font-bold text-xl flex"
           >
-            <LogoIcon />
-            ShadcnUI/React
+            <LogoIcon /> 
           </a>
         </div>
 
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Follow US</h3>
-          <div>
+          <div className="flex">
+            <img src={instagram} alt=""  className="w-7 h-7"/>
             <a
-              href="#"
+              href="https://www.instagram.com/teamcfr/"
               className="opacity-60 hover:opacity-100"
             >
-              Github
+              Instagram
             </a>
           </div>
 
-          <div>
+          <div className="flex">
+          <img src={twitter} alt=""  className="w-7 h-7"/>
             <a
-              href="#"
+              href="https://twitter.com/teamcfr?lang=en"
               className="opacity-60 hover:opacity-100"
             >
               Twitter
             </a>
           </div>
 
-          <div>
+          <div className="flex">
+          <img src={linkdin} alt=""  className="w-7 h-7"/>
             <a
-              href="#"
+              href="https://www.linkedin.com/company/teamcrceformularacing/"
               className="opacity-60 hover:opacity-100"
             >
-              Dribbble
+              LinkdIn
+            </a>
+          </div>
+
+          <div className="flex">
+          <img src={youtube} alt=""  className="w-7 h-7"/>
+            <a
+              href="https://www.youtube.com/@crceformularacing1073"
+              className="opacity-60 hover:opacity-100"
+            >
+              YouTube
+            </a>
+          </div>
+        </div>
+
+
+
+        <div className="flex flex-col gap-2">
+          <h3 className="font-bold text-lg">About Our </h3>
+          <div>
+            <a
+              href="#team"
+              className="opacity-60 hover:opacity-100"
+            >
+              Team
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="#features"
+              className="opacity-60 hover:opacity-100"
+            >
+              Cars
+            </a>
+          </div>
+
+          <div>
+            <a
+              href="#sponsors"
+              className="opacity-60 hover:opacity-100"
+            >
+              Sponsors
             </a>
           </div>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
-          <div>
-            <a
-              href="#"
+          <h3 className="font-bold text-lg">Contacts Us</h3>
+          <div className="flex flex-row">
+            <div className="w-6">
+              <img src={phone} alt="" />
+            </div>
+            <p
+
               className="opacity-60 hover:opacity-100"
-            >
-              Web
-            </a>
+            >             +1234567890
+            </p>
           </div>
 
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
+          <div className="flex flex-row w-full">
+            <div className="w-6">
+              <img src={email} alt="mail" />
+            </div>
+            <p className="opacity-60 hover:opacity-100 w-5 px-1"
             >
-              Mobile
-            </a>
+              {" "}
+              teamcrceformularacing@gmail.com
+            </p>
           </div>
 
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Desktop
-            </a>
-          </div>
-        </div>
 
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Features
-            </a>
-          </div>
-
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Pricing
-            </a>
-          </div>
-
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              FAQ
-            </a>
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Youtube
-            </a>
-          </div>
-
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Discord
-            </a>
-          </div>
-
-          <div>
-            <a
-              href="#"
-              className="opacity-60 hover:opacity-100"
-            >
-              Twitch
-            </a>
-          </div>
         </div>
       </section>
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
-          <a
-            target="_blank"
-            href="https://github.com/leoMirandaa"
-            className="text-primary transition-all border-primary hover:border-b-2"
+          &copy; 2024 Formula One
+          <div
+            className="text-primary transition-all border-primary "
           >
-            Leo Miranda
-          </a>
+            All Rights Reserved
+          </div>
         </h3>
       </section>
     </footer>

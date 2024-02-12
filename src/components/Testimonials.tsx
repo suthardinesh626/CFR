@@ -7,56 +7,43 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
+import positive from '../assets/png/icons8-positive-64.png'
+import empowering from '../assets/png/icons8-rights-64.png'
+import network from '../assets/png/icons8-blockchain-technology-48.png'
+import coporate from '../assets/png/icons8-corporate-96.png'
+
 interface TestimonialProps {
   image: string;
-  name: string;
   userName: string;
   comment: string;
 }
 
 const testimonials: TestimonialProps[] = [
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    image: positive,
+    userName: '2',
+    comment: "  POSITIVE brand visibility: Providing support to a   student project which is working towards an initiative of sustainable engineering will add a positive outlook to your brand.",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    image: network,
+    userName: "2",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "   NETWORK: Your company will be promoted nationally and globally through our social media and promotional events organised in our college.",
   },
 
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
+    image: empowering,
+    userName: "3",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "  EMPOWERING YOUTH: Team helps foster technological advancements among students of engineering fraternity of india by providing them with an opportunity to gain knowledge and hands on experience. ",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    image: coporate,
+    userName: "3",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "CORPORATE SOCIAL responsibility: Associating with TEAM CFR also covers your company's required C.S.R activities.",
   },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
-    comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
+
 ];
 
 export const Testimonials = () => {
@@ -69,19 +56,17 @@ export const Testimonials = () => {
         Discover Why
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          People Love{" "}
+          Partner With Us{" "}
         </span>
-        This Landing Page
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
         {testimonials.map(
-          ({ image, name, userName, comment }: TestimonialProps) => (
+          ({ image, userName, comment }: TestimonialProps) => (
             <Card
               key={userName}
               className="max-w-md md:break-inside-avoid overflow-hidden"
@@ -95,10 +80,6 @@ export const Testimonials = () => {
                   <AvatarFallback>OM</AvatarFallback>
                 </Avatar>
 
-                <div className="flex flex-col">
-                  <CardTitle className="text-lg">{name}</CardTitle>
-                  <CardDescription>{userName}</CardDescription>
-                </div>
               </CardHeader>
 
               <CardContent>{comment}</CardContent>

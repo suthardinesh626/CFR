@@ -12,7 +12,6 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
@@ -25,20 +24,28 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
+    href: "#hero",
+    label: "Home",
+  },
+  {
+    href: "#about",
+    label: "About Us",
+  },
+  {
     href: "#features",
-    label: "Features",
+    label: "Cars",
   },
   {
-    href: "#testimonials",
-    label: "Testimonials",
+    href: "#team",
+    label: "Our Team",
   },
   {
-    href: "#pricing",
-    label: "Pricing",
+    href: "#sponsors",
+    label: "Sponsors",
   },
   {
-    href: "#faq",
-    label: "FAQ",
+    href: "#services",
+    label: "Support Us",
   },
 ];
 
@@ -54,7 +61,6 @@ export const Navbar = () => {
               className="ml-2 font-bold text-xl flex"
             >
               <LogoIcon />
-              ShadcnUI/React
             </a>
           </NavigationMenuItem>
 
@@ -78,7 +84,7 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Shadcn/React
+                    CFR
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
@@ -92,16 +98,7 @@ export const Navbar = () => {
                       {label}
                     </a>
                   ))}
-                  <a
-                    href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-                    target="_blank"
-                    className={`w-[110px] border ${buttonVariants({
-                      variant: "secondary",
-                    })}`}
-                  >
-                    <GitHubLogoIcon className="mr-2 w-5 h-5" />
-                    Github
-                  </a>
+
                 </nav>
               </SheetContent>
             </Sheet>
@@ -123,14 +120,7 @@ export const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex gap-2">
-            <a
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-              target="_blank"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
-            >
-              <GitHubLogoIcon className="mr-2 w-5 h-5" />
-              Github
-            </a>
+
 
             <ModeToggle />
           </div>
