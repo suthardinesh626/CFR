@@ -370,7 +370,6 @@ const teamList4: TeamProps[] = [
     ],
   }
 ];
-
 const teamList5: TeamProps[] = [
   {
     imageUrl: amish,

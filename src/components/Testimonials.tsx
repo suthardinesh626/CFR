@@ -2,9 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 
 import positive from '../assets/png/icons8-positive-64.png'
