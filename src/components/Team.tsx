@@ -117,22 +117,6 @@ const teamList2: TeamProps[] = [
     ],
   },
   {
-    imageUrl: adrian,
-    name: "Adrian Nair",
-    position: "Chassis Junior",
-    socialNetworks: [
-      { name: "Linkedin", url: "" },
-      {
-        name: "Facebook",
-        url: "",
-      },
-      {
-        name: "Instagram",
-        url: "",
-      },
-    ],
-  },
-  {
     imageUrl: mayank,
     name: "Mayank Katkar",
     position: "Chassis Junior",
@@ -148,7 +132,7 @@ const teamList2: TeamProps[] = [
   {
     imageUrl: krsish,
     name: "Krish Karelia",
-    position: "Frontend Developer",
+    position: "Chassis Junior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -192,7 +176,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: shahood,
     name: "Shahood Ansari",
-    position: "Chassis Junior",
+    position: "Electronic Senior",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -208,7 +192,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: malcom,
     name: "Malcom Pereira",
-    position: "Chassis Junior",
+    position: "Electronic Senior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -221,7 +205,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: smruti,
     name: "Smruti Bhatkar",
-    position: "Frontend Developer",
+    position: "Electronic Senior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -234,7 +218,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: jacob,
     name: "Jacob Perumatil",
-    position: "Chassis Junior",
+    position: "Electronic Senior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -265,7 +249,7 @@ const teamList4: TeamProps[] = [
   {
     imageUrl: yash,
     name: "Yash More",
-    position: "Chassis Junior",
+    position: "E-Powertrain Senior",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -458,7 +442,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: chinmay,
     name: "Chinmay Khadye",
-    position: "E-Powertrain Junior",
+    position: "E-Powertrain Senior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -481,19 +465,7 @@ const teamList5: TeamProps[] = [
       },
     ],
   },
-  {
-    imageUrl: yashraj,
-    name: "Yashraj Pandit",
-    position: "E-Powertrain Junior",
-    socialNetworks: [
-      { name: "Linkedin", url: "http://linkedin.com" },
 
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  }
 ];
 
 
