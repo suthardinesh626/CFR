@@ -441,7 +441,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: chinmay,
     name: "Chinmay Khadye",
-    position: "E-Powertrain Senior",
+    position: "Vehical Dynamic Senior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
