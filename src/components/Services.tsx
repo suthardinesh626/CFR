@@ -5,7 +5,7 @@ import finance from '../assets/png/icons8-finances-48.png'
 import logistic from '../assets/png/icons8-logistics-80.png'
 import Material from '../assets/png/icons8-metal-96.png'
 import activities from '../assets/png/icons8-activities-64.png'
-import race2 from '../assets/png/pngegg (1).png'
+
 
 interface ServiceProps {
   title: string;
@@ -81,11 +81,11 @@ export const Services = () => {
           </div>
         </div>
 
-        <img
+        {/* <img
           src={race2}
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
-        />
+        /> */}
       </div>
     </section>
   );

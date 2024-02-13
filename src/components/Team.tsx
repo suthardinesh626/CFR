@@ -159,7 +159,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: Dhruv,
     name: "Dhruv Pednekar",
-    position: "Electrnoic Head",
+    position: "Electronic Head",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -495,7 +495,7 @@ export const Team = () => {
           Crew
         </h2>
 
-        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+        <p className="mt-4 mb-10 text-3xl text-muted-foreground text-center font-bold">
           Core Team
         </p>
 
@@ -547,7 +547,7 @@ export const Team = () => {
         id="team"
         className="container py-10 sm:py-32"
       >
-        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+        <p className="mt-4 mb-10 text-3xl text-muted-foreground font-bold text-center">
           Chassis Team
         </p>
 
@@ -600,7 +600,7 @@ export const Team = () => {
         id="team"
         className="container py-10 sm:py-32"
       >
-        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+        <p className="mt-4 mb-10 text-3xl text-muted-foreground text-center font-bold">
           Electronic Team
         </p>
 
@@ -653,7 +653,7 @@ export const Team = () => {
         id="team"
         className="container py-10 sm:py-32"
       >
-        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+        <p className="mt-4 mb-10 text-3xl text-muted-foreground text-center font-bold ">
           E-Powertrain
         </p>
 
@@ -706,7 +706,7 @@ export const Team = () => {
         id="team"
         className="container py-10 sm:py-32"
       >
-        <p className="mt-4 mb-10 text-xl text-muted-foreground ">
+        <p className="mt-4 mb-10 text-3xl text-muted-foreground text-center font-bold">
           Vehical Dynamics Team
         </p>
 

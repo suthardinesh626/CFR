@@ -26,6 +26,9 @@ interface SponsorProps {
 
 const sponsors: SponsorProps[] = [
   {
+    name: "PBW",
+    image: sponsor12,
+  }, {
     name: "Abhjeet",
     image: sponsor1,
   },
@@ -65,9 +68,6 @@ const sponsors: SponsorProps[] = [
     name: "Pankaj",
     image: sponsor11,
   }, {
-    name: "PBW",
-    image: sponsor12,
-  }, {
     name: "Prodigy Kustoms",
     image: sponsor13,
   }, {
@@ -106,7 +106,7 @@ export const Sponsors = () => {
             key={name}
             className="flex flex-col items-center gap-1 text-muted-foreground/60"
           >
-  
+
             <img src={image} alt={name} className="w-44" />
             <h3 className="text-xl  font-bold">{name}</h3>
           </div>
