@@ -58,7 +58,7 @@ export const Footer = () => {
           <div className="flex">
           <img src={youtube} alt=""  className="w-7 h-7"/>
             <a
-              href="https://www.youtube.com/@crceformularacing1073"
+              href="https://youtube.com/@CRCEFormulaRacingElectric?si=UO0_y-qV6GkFWRwq"
               className="opacity-60 hover:opacity-100"
             >
               YouTube
