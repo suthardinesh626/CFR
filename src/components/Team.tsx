@@ -37,6 +37,7 @@ import musavir from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/5.png'
 import harishankar from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/6.png'
 import chinmay from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/7.png'
 import pranav from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/8.png'
+import shweta from '../assets/Team/Vehicle Dynamics/Vehicle Dynamics/9.jpg'
 
 
 interface TeamProps {
@@ -55,7 +56,7 @@ const teamList1: TeamProps[] = [
   {
     imageUrl: Dhruv,
     name: "Dhruv Pednekar",
-    position: "Caption",
+    position: "Team Captain ",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -71,7 +72,7 @@ const teamList1: TeamProps[] = [
   {
     imageUrl: johnathan,
     name: "Jonhathan Joseph",
-    position: "Manager",
+    position: "Team Manager",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -87,7 +88,7 @@ const teamList1: TeamProps[] = [
   {
     imageUrl: jason,
     name: "Jason Rodrigues",
-    position: "Chief Financial Officer",
+    position: "Team Chief Financial Officer",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -159,7 +160,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: Dhruv,
     name: "Dhruv Pednekar",
-    position: "Electronic Head",
+    position: "Electronics Head",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -175,7 +176,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: shahood,
     name: "Shahood Ansari",
-    position: "Electronic Senior",
+    position: "Electronics Senior",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -191,7 +192,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: malcom,
     name: "Malcom Pereira",
-    position: "Electronic Senior",
+    position: "Electronics Senior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -204,7 +205,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: smruti,
     name: "Smruti Bhatkar",
-    position: "Electronic Senior",
+    position: "Electronics Junior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -217,7 +218,7 @@ const teamList3: TeamProps[] = [
   {
     imageUrl: jacob,
     name: "Jacob Perumatil",
-    position: "Electronic Senior",
+    position: "Electronics Junior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -357,7 +358,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: amish,
     name: "Amish Nair",
-    position: "Vehical Dynamic Head",
+    position: "Vehicle Dynamics Head",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -373,7 +374,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: kunal,
     name: "Kunal Kore",
-    position: "Vehical Dynamic Senior",
+    position: "Vehicle Dynamics Senior",
     socialNetworks: [
       { name: "Linkedin", url: "" },
       {
@@ -387,9 +388,22 @@ const teamList5: TeamProps[] = [
     ],
   },
   {
+    imageUrl: shweta,
+    name: "Shweta Yadav",
+    position: "Vehicle Dynamics Senior",
+    socialNetworks: [
+      { name: "Linkedin", url: "http://linkedin.com" },
+
+      {
+        name: "Instagram",
+        url: "https://www.instagram.com/",
+      },
+    ],
+  },
+  {
     imageUrl: fahad,
     name: "Fahad Qureshi",
-    position: "Vehical Dynamic Senior",
+    position: "Vehicle Dynamics Senior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -402,7 +416,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: ishan,
     name: "Ishan Chatterjee",
-    position: "Vehical Dynamic Senior",
+    position: "Vehicle Dynamics Senior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -415,7 +429,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: musavir,
     name: "Musavir",
-    position: "Vehical Dynamic Senior",
+    position: "Vehicle Dynamics Junior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -428,7 +442,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: harishankar,
     name: "Harishankar Rajam",
-    position: "Vehical Dynamic Senior",
+    position: "Vehicle Dynamics Junior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -441,7 +455,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: chinmay,
     name: "Chinmay Khadye",
-    position: "Vehical Dynamic Senior",
+    position: "Vehicle Dynamics Junior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 
@@ -454,7 +468,7 @@ const teamList5: TeamProps[] = [
   {
     imageUrl: pranav,
     name: "Pranav Dhole",
-    position: "Vehical Dynamic Senior",
+    position: "Vehicle Dynamics Junior",
     socialNetworks: [
       { name: "Linkedin", url: "http://linkedin.com" },
 

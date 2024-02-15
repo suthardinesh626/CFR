@@ -20,7 +20,6 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     title: "Year 2017",
-
     image: year2017,
   },
   {

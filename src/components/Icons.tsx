@@ -1,9 +1,10 @@
 import icon from '../assets/icon.png';
 
+
 export const LogoIcon = () => {
   return (
     <>
-      <div  className='w-16'>
+      <div  className='w-16 '>
         <img src={icon} alt="" />
       </div>
     </>

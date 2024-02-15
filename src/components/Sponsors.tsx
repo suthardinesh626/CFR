@@ -6,7 +6,7 @@ import sponsor4 from '../assets/Sponsers/Evon.jpg'
 import sponsor5 from '../assets/Sponsers/HALONIX.jpg'
 import sponsor6 from '../assets/Sponsers/JK FIBREGLASS.png'
 import sponsor7 from '../assets/Sponsers/JLCPCB.jpeg'
-import sponsor8 from '../assets/Sponsers/MARINE CONTAINER LOGO.png'
+import sponsor8 from '../assets/Sponsers/maine-container.jpg'
 import sponsor9 from '../assets/Sponsers/MM treatment.jpg'
 import sponsor10 from '../assets/Sponsers/MetalForm.jpg'
 import sponsor11 from '../assets/Sponsers/PANKAJ POTENTIOMETERS.jpeg'
@@ -25,10 +25,7 @@ interface SponsorProps {
 }
 
 const sponsors: SponsorProps[] = [
-  {
-    name: "PBW",
-    image: sponsor12,
-  }, {
+ {
     name: "Abhjeet",
     image: sponsor1,
   },
@@ -56,7 +53,7 @@ const sponsors: SponsorProps[] = [
     name: "JLCPCB",
     image: sponsor7,
   }, {
-    name: "Sponsor 6",
+    name: "Marine Containers",
     image: sponsor8,
   }, {
     name: "M M Vaccumtreat",
@@ -97,6 +94,23 @@ export const Sponsors = () => {
       className="container pt-24 sm:py-32"
     >
       <h2 className="text-center text-md lg:text-xl font-bold mb-8 text-primary underline">
+        TITLE-SPONSORS
+      </h2>
+
+      <div className="flex flex-wrap justify-center items-center my-12">
+
+        <div
+          className="flex flex-col items-center gap-1 text-muted-foreground/60"
+        >
+          <img src={sponsor12} className="w-60 rounded-lg" />
+          <h3 className="text-xl  font-bold text-white">Patel Brass Works</h3>
+        </div>
+
+      </div>
+
+
+
+      <h2 className="text-center text-md lg:text-xl font-bold mb-8 text-primary underline">
         SPONSORS
       </h2>
 
@@ -106,9 +120,8 @@ export const Sponsors = () => {
             key={name}
             className="flex flex-col items-center gap-1 text-muted-foreground/60"
           >
-
-            <img src={image} alt={name} className="w-44" />
-            <h3 className="text-xl  font-bold">{name}</h3>
+            <img src={image} alt={name} className="w-32" />
+            <h3 className="text-xl text-white font-bold">{name}</h3>
           </div>
         ))}
       </div>

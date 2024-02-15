@@ -7,19 +7,19 @@ export const Statistics = () => {
   const stats: statsProps[] = [
     {
       quantity: "1st",
-      description: "Engineering Design Rank (FI)",
-    },
-    {
-      quantity: "4th",
-      description: "Overall Rank (FI)",
+      description: "Engineering Design Rank (FI 2023)",
     },
     {
       quantity: "3rd",
-      description: "Innovation Rank (FI)",
+      description: "Innovation Rank (FI 2023)",
     },
     {
       quantity: "4th",
-      description: "Business Plan Rank (FB)",
+      description: "Overall Rank (FI 2023)",
+    },
+    {
+      quantity: "4th",
+      description: "Business Plan Rank (FB 2023)",
     },
   ];
 
@@ -32,7 +32,7 @@ export const Statistics = () => {
             className="space-y-2 text-center"
           >
             <h2 className="text-3xl sm:text-4xl font-bold ">{quantity}</h2>
-            <p className="text-xl text-muted-foreground">{description}</p>
+            <p className="text-md text-muted-foreground">{description}</p>
           </div>
         ))}
       </div>
