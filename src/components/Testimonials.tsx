@@ -5,10 +5,11 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 
-import positive from '../assets/png/icons8-positive-64.png'
-import empowering from '../assets/png/icons8-rights-64.png'
-import network from '../assets/png/icons8-blockchain-technology-48.png'
-import coporate from '../assets/png/icons8-corporate-96.png'
+// import positive from '../assets/png/icons8-positive-64.png'
+import empowering from '../assets/png/icons8-knowledge-50.png'
+import network from '../assets/png/icons8-blockchain-technology-64.png'
+import coporate from '../assets/png/icons8-corporate-100 (1).png'
+import handshake from '../assets/png/icons8-deal-64.png'
 
 interface TestimonialProps {
   image: string;
@@ -18,7 +19,7 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    image: positive,
+    image: handshake,
     userName: '2',
     comment: "  POSITIVE brand visibility: Providing support to a   student project which is working towards an initiative of sustainable engineering will add a positive outlook to your brand.",
   },

@@ -11,12 +11,14 @@ import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
 import "./App.css";
+import Video from './components/Video'
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Video/>
       <About />
       {/* <HowItWorks /> */}
       <Features />
